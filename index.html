@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+    <meta name="title" content="Vogue - Cocktails & Spirits" />
+    <meta name="description" content="A website for qr code web menu" />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/facebook_1694178384938_7105899176661142906.jpg"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <nav class="topbar-item">
+          <span class="span">
+            Non hai ancora messo mi piace alla nostra pagina Facebook? Fallo
+            subito! Entra a far parte della nostra famiglia e riceverai un buono
+            sconto per il tuo prossimo acquisto
+            <img src="./assets/images/index-right.png" class="index-right" />
+            <a href="#" class="facebook-access">
+              <img src="./assets/images/facebook_access.png" />
+            </a>
+          </span>
+        </nav>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/VogueLogo.jpg"
+            width="120"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#event" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Eventi</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contacts" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/pubimage.png"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Cocktails Unici
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">Vogue</h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Immergiti in un'esperienza senza pari
+              </p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Vedi il nostro menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Vedi il nostro menu</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/bar-tender-pours-cocktail-from-cocktail-shaker-into-martini-glass.jpg"
+                  width="180"
+                  height="195"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Team Esperto</p>
+
+              <h1 class="display-1 hero-title slider-reveal">Vogue</h1>
+
+              <p class="body-2 hero-text slider-reveal">Affidati ai migliori</p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Vedi il nostro menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Vedi il nostro menu</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/wide-shot-bottles-glasses-display-cabinet-bar-scandic-hotel-copenhagen-denmark.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Nuova Location
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">Vogue</h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Entra in un nuovo mondo
+              </p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Vedi il nostro menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Vedi il nostro menu</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Sapori imperdibili</p>
+
+            <h2 class="headline-1 section-title">Offriamo solo il meglio</h2>
+
+            <p class="section-text">
+              Prepariamo tutto con cura e mani esperte, dedicando attenzione ai
+              dettagli, non solo al sapore
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#menu-breakfast" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#menu-breakfast">Colazione</a>
+                    </h3>
+
+                    <a
+                      href="#menu-breakfast"
+                      class="btn-text hover-underline label-2"
+                      >Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Tavola Calda</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#drink" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-3.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#drink">Apericena</a>
+                    </h3>
+
+                    <a href="#drink" class="btn-text hover-underline label-2"
+                      >Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./assets/images/shape-2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">
+                La nostra storia
+              </p>
+
+              <h2 class="headline-1 section-title">
+                Tutto ciò che serviamo è frutto della nostra esperienza
+              </h2>
+
+              <p class="section-text">
+                Dopo oltre 10 anni nel settore della ristorazione, sappiamo come
+                accogliere al meglio i nostri clienti regalandogli un'esperienza
+                coinvoglente ed impagabile
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Scopri di più</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Scopri di più</span
+                >
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/black-wooden-table.jpg"
+                width="700"
+                height="700"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/female-chef-adding-sauce-dish.jpg"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/golden-cutlery-with-textile-plate-dark-background-top-view.jpg"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section
+          class="section menu breakfast"
+          aria-label="menu-label"
+          id="menu"
+          menu-data
+        >
+          <div class="container" id="menu-breakfast">
+            <p class="section-subtitle text-center label-2">Dolce risveglio</p>
+
+            <h2 class="headline-1 section-title text-center">Menu Colazione</h2>
+
+            <div class="menu-break">
+              <ol>
+                <h1 class="price">Prezzo</h1>
+                <br />
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+              </ol>
+
+              <ul>
+                <h1 class="item">Caffetteria</h1>
+                <li>Caffè</li>
+                <li>Cappuccino</li>
+                <li>Caffelatte</li>
+                <li>Latte macchiato</li>
+                <li>Marocchino con nutella</li>
+                <li>Cornetto</li>
+                <li>Crostata</li>
+                <li>Spremuta d'arancia</li>
+                <li>Waffle</li>
+                <li>Pancake</li>
+                <li>Infusi</li>
+              </ul>
+            </div>
+
+            <p class="menu-text text-center">
+              Aperti tutti i giorni dalle <span class="span">7:00</span> alle
+              <span class="span">23:00</span>
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="section menu soft-drink"
+          aria-label="menu-label"
+          id="menu"
+          menu-data
+        >
+          <div class="container" id="drink">
+            <p class="section-subtitle text-center label-2">Coccole</p>
+
+            <h2 class="headline-1 section-title text-center">
+              Menu Soft Drinks
+            </h2>
+
+            <div class="menu-break">
+              <ol>
+                <h1 class="price">Prezzo</h1>
+                <br />
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+              </ol>
+
+              <ul>
+                <h1 class="item">Bevande</h1>
+                <li>Acqua</li>
+                <li>Coca-Cola</li>
+                <li>Coca-Cola zero</li>
+                <li>Fanta</li>
+                <li>Red Bull</li>
+                <li>Monster</li>
+                <li>Bevande Lurisia</li>
+                <li>Tè pesca o limone</li>
+                <li>Schweppes</li>
+                <li>Cedrata</li>
+                <li>Chinotto Neri</li>
+                <li>Succhi di frutta</li>
+              </ul>
+            </div>
+
+            <p class="menu-text text-center">
+              Aperti tutti i giorni dalle <span class="span">7:00</span> alle
+              <span class="span">23:00</span>
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="section menu cocktails"
+          aria-label="menu-label"
+          id="menu"
+          menu-data
+        >
+          <div class="container" id="cocktails">
+            <p class="section-subtitle text-center label-2">Let's Party!</p>
+
+            <h2 class="headline-1 section-title text-center">
+              Cocktail Drink List
+            </h2>
+
+            <div class="menu-break">
+              <ol>
+                <h1 class="price">Prezzo</h1>
+                <br />
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+                <li>&euro; 1.00</li>
+              </ol>
+
+              <ul>
+                <h1 class="item">Long drink</h1>
+                <li>Spritz</li>
+                <li>Americano</li>
+                <li>Negroni</li>
+                <li>Negrovsky</li>
+                <li>Cuba Libre</li>
+                <li>Mojito</li>
+                <li>Long Island</li>
+                <li>Miami Ice Tea</li>
+                <li>Mai Tai</li>
+                <li>Tom Collins</li>
+                <li>Tequila Sunrise</li>
+                <li>Sex on the Beach</li>
+                <li>Moscow Mule</li>
+                <li>Piña Colada</li>
+              </ul>
+            </div>
+
+            <p class="menu-text text-center">
+              Aperti tutti i giorni dalle <span class="span">7:00</span> alle
+              <span class="span">23:00</span>
+            </p>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Vorrei ringraziare i proprietari per la fantastica accoglienza
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <div class="profile">
+              <img
+                src="./assets/images/testi-avatar.jpg"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt="Sam Jhonson"
+                class="img"
+              />
+
+              <p class="label-2 profile-name">Pippo Rossi</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #RESERVATION
+      -->
+
+        <section class="reservation" id="contacts">
+          <div class="container">
+            <div class="form-right text-center">
+              <h2 class="headline-1 text-center">Contattaci</h2>
+
+              <p class="contact-label">Prendi appuntamento al numero</p>
+
+              <a
+                href="tel:+393270148194"
+                class="body-1 contact-number hover-underline"
+                >+39-327-0148194</a
+              >
+
+              <div class="separator"></div>
+
+              <p class="contact-label">
+                Oppure scrivici al seguendo indirizzo mail
+              </p>
+
+              <a
+                href="email:voguecocktailbarsrl@gmail.com"
+                class="body-1 contact-email hover-underline"
+                >voguecocktailbarsrl@gmail.com</a
+              >
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Vogue, Via Appia Sud 32, Velletri, 00049, Roma
+              </address>
+
+              <p class="contact-label">Aperti a Pranzo</p>
+
+              <p class="body-4">
+                Dal Martedì alla Domenica <br />
+                11.00 - 2.30
+              </p>
+
+              <p class="contact-label">Aperti a Cena</p>
+
+              <p class="body-4">
+                Dal Mercoledì alla Domenica <br />
+                17:00- 22:00
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Perché sceglierci</p>
+
+            <h2 class="headline-1 section-title">I nostri punti forti</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Prodotti Freschi</h3>
+
+                  <p class="label-1 card-text">Dalla terra alla tavola</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Nuova Location</h3>
+
+                  <p class="label-1 card-text">
+                    Locale completamente rinnovato, per godere al meglio della
+                    tua esperienza
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Personale Qualificato</h3>
+
+                  <p class="label-1 card-text">
+                    Abbiamo scelto solo i migliori per servirti
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Feste ed Eventi</h3>
+
+                  <p class="label-1 card-text">
+                    Organizza con noi il tuo party privato
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #EVENT
+      -->
+
+        <section
+          class="section event bg-black-10"
+          aria-label="event"
+          id="event"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2 text-center">
+              Ricordi indimenticabili
+            </p>
+
+            <h2 class="section-title headline-1 text-center">
+              Prossimi Eventi
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/open-sign-hanging-with-purple-light.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="16/09/2023"
+                      >16/09/2023</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      Inaugurazione
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Non sai cosa fare? Vieni, e mangia gratis da noi
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/delicious-italian-cocktail-with-realistic-background.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime=""
+                      >Tutti i Giovedì</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">AperiVogue</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      La nostra visione di Aperitivo, con tagliere di salumi
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/pumpkin-composition-with-drink.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="30/09/2023"
+                      >30/09/2023</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      Halloween Night
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Festeggia con noi la notte più Spaaaventosa di sempre
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="
+        background-image: url('https://img.freepik.com/free-photo/3d-grunge-concrete-interior-with-spotlights_1048-16924.jpg?size=626&ext=jpg&uid=R116494748&ga=GA1.2.1312791864.1694440943&semt=ais');
+      "
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/VogueLogo.jpg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              Vogue, Via Appia Sud 32, Velletri, 00049, Roma
+            </address>
+
+            <a href="tel:+39-327-0148194" class="body-4 contact-link"
+              >Prenota : +39-327-0148194</a
+            >
+
+            <a
+              href="mailto:voguecocktailbarsrl@gmail.com"
+              class="body-4 contact-link-email"
+              >voguecocktailbarsrl@gmail.com</a
+            >
+
+            <p class="body-4">Aperti tutti i giorni : 09:00 - 01:00</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1" style="color: rgb(73, 77, 77)">
+              Ottieni uno sconto
+            </p>
+
+            <p class="label-1">
+              Aggiungi su Facebook e riceverai
+              <span class="span">un buono</span>
+              per il tuo prossimo ordine
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="text"
+                  name="Vouge-Page"
+                  placeholder="Aggiuncici Subito!"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Vogue Page</span>
+
+                <span class="text text-2" aria-hidden="true">Vogue Page</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="label-2 footer-link hover-underline"
+                >Menu</a
+              >
+            </li>
+
+            <li>
+              <a href="#event" class="label-2 footer-link hover-underline"
+                >Eventi</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Galleria</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.455288808127!2d12.7746287748936!3d41.66750967857491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13259d73cc8f0f67%3A0x177355085b3cddb!2sSupermercato%20Carrefour%20Market!5e0!3m2!1sit!2sit!4v1694699017165!5m2!1sit!2sit"
+                width="250"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                >Google Map</iframe
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2023 Vogue. All Rights Reserved | Creato da
+            <span class="span"> Daniele Mastrostefano</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--
+    - firebase JS SDK import
+  -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyAoQaMLkPLDLxJpyYr1VcWC0GLJEskg1HM",
+        authDomain: "vogue-68075.firebaseapp.com",
+        projectId: "vogue-68075",
+        storageBucket: "vogue-68075.appspot.com",
+        messagingSenderId: "781364316014",
+        appId: "1:781364316014:web:fe6fafd000d5e255b6a37f",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
